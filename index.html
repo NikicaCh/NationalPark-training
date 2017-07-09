@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Пелистер, национален парк</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<div class="sticky">
+    <nav class="first-nav ">
+        <a href="">За нас</a>
+        <a href="">Контакт</a>
+    </nav>
+    <a class="hero " href="#"><img  src="images/logo.png"  alt="Лого"> </a>
+    <nav class="second-nav ">
+        <a href="">Истражи</a>
+        <a href="">Галерија</a>
+    </nav>
+</div>
+    
+    <header class="main-header">
+        <span class="title">национален парк</span>
+        <h1>Пелистер</h1>
+    </header>
+
+    <div class="primary-content border">
+        <p class="intro">
+            Пелистер е еден од најубавите Национални Паркови во Македонија.
+            Пелистер нуди прекрасни активности како планински велосипедизам,
+            лов, риболов како и кампување.Скијањето е една од главните активности
+            на преубавиот Пелистер.
+        </p>
+        <a href="#" class="callout">Дознај повеќе</a>
+    
+
+        <div class="flora-fauna">
+            <h2>Истражи ја флората и фауната</h2>
+            <p>
+                Пелистер изобилува со уникатни природни богатсва и претставува дом
+                на ретки ендемични животински и растителни видови.
+            </p>
+        </div>
+             <a href="#" class="callout">Дознај повеќе</a>
+    </div>
+
+    <div class="secondary-content border group">
+        <div class="accommodation">
+            <img src="images/accommodation.jpg" alt="Сместување">
+            <h2>Сместување</h2>
+            <p>Постојат најразлични видови и класи на сместување во регионот
+                на Националниот Парк Пелистер.
+            </p>
+            <ul>
+                <li>Хотели</li>
+                <li>Планински Домови</li>
+                <li>Хостели</li>
+                <li>Ресторани</li>
+                <li>Вили</li>
+            </ul>
+        </div>
+        <div class="attractions">
+            <img src="images/attractions.jpg" alt="Атракции">
+            <h2>Активности</h2>
+            <p>Ативностите во регионот на Пелистер и градот Битола можат да бидат интересни
+             како за помладата така и за постарата генерација.Информирајте се 
+             повеќе на линковите</p>   
+             <ul>
+                 <li>Локалитет, антички град, Хераклеа Линкестис</li>
+                 <li>Спомен соба на Кемал Ататурк</li>
+                 <li>Етно музеј во село Подмочани</li>
+             </ul>
+         </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+        <script>
+            $(document).ready(function(){
+            $(".sticky").sticky({topSpacing:0.1});
+            });
+        </script>
+</body>
+</html>
